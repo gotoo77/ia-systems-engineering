@@ -65,6 +65,21 @@ Composant
 - `labs/` valident des hypothèses d'architecture ; ils ne remplacent pas les chapitres conceptuels.
 - `prospective/` dépend des concepts stabilisés avant de formuler des hypothèses.
 
+## Table de dépendances exploitable
+
+| Section | Prérequis | Concepts introduits | Concepts réutilisés |
+| --- | --- | --- | --- |
+| `docs/` | Aucun. | Intention, périmètre, mode de lecture. | Gouvernance, roadmap. |
+| `foundations/` | Aucun. | Information, système, complexité, composant, interface, contrat. | Intention, périmètre. |
+| `llm/` | Information, système, contexte. | Modèle, token, fenêtre de contexte, hallucination, embedding, quantification. | Complexité, responsabilité, limites. |
+| `engines/` | Modèle, inférence, quantification. | Moteur d'inférence, runtime, latence, débit, placement matériel. | Modèle, contexte, compromis. |
+| `agents/` | Modèle, inférence, moteur, outil, interface. | Agent, boucle agentique, autonomie, tool use, sandboxing. | Interface, contexte, moteur d'inférence. |
+| `memory/` | Contexte, embedding, indexation. | Mémoire, mémoire documentaire, récupération, RAG. | Modèle, contexte, évaluation. |
+| `orchestration/` | Composant, interface, agent, mémoire, outil. | Orchestrateur, pattern d'orchestration, multi-agents, observabilité, feedback. | Moteur, modèle, RAG, contrat. |
+| `assistant-dev/` | LLM, moteurs, agents, mémoire, orchestration. | Assistant de développement local, permissions, boucle git/tests. | Tous les concepts précédents. |
+| `labs/` | Chapitres conceptuels concernés. | Hypothèse, protocole, métrique, validation expérimentale. | Patterns, composants, observabilité. |
+| `prospective/` | Concepts stabilisés du modèle de domaine. | Self-scaffolding, inference-time scaling, systèmes intelligents. | Graphe pédagogique complet. |
+
 ## Premier chapitre fondateur
 
 `foundations/01_information_complexite_emergence.md` introduit les concepts racines suivants :

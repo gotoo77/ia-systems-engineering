@@ -58,7 +58,7 @@ Ce fichier sert de réservoir de tâches. L'exécution opérationnelle se fait d
 ### BMAD-006 — Transformer le graphe pédagogique en table de dépendances
 
 - **Epic** : EPIC-02
-- **Statut** : READY
+- **Statut** : DONE
 - **Contexte** : `DEPENDENCIES.md` contient un graphe initial mais pas encore de table exploitable.
 - **Fichiers concernés** : `DEPENDENCIES.md`
 - **Critères d'acceptation** : chaque section principale a prérequis, concepts introduits et concepts réutilisés.
@@ -67,7 +67,7 @@ Ce fichier sert de réservoir de tâches. L'exécution opérationnelle se fait d
 ### BMAD-007 — Identifier les chapitres à renommer
 
 - **Epic** : EPIC-03
-- **Statut** : BLOCKED
+- **Statut** : READY
 - **Contexte** : certains fichiers sont nommés par outils plutôt que par responsabilité.
 - **Fichiers concernés** : `agents/`, `engines/`, `memory/`, `TABLE_OF_CONTENTS.md`
 - **Critères d'acceptation** : une proposition de renommage est listée sans appliquer les renommages.
