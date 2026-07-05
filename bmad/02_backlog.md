@@ -145,6 +145,80 @@ Ce fichier sert de réservoir de tâches. L'exécution opérationnelle se fait d
 - **Critères d'acceptation** : première tâche M1 identifiée ; dépendances explicites ; aucun chapitre produit.
 - **Dépendances** : BMAD-009, BMAD-013, BMAD-014.
 
+## Lot M1 - Production v0.1
+
+### BMAD-016 — Rédiger une première version courte du chapitre fondateur 01
+
+- **Epic** : EPIC-04
+- **Statut** : READY
+- **Contexte** : le chapitre `foundations/01` est cadré ; il faut produire une première version maintenable sans chercher la perfection.
+- **Fichiers concernés** : `foundations/01_information_complexite_emergence.md`
+- **Critères d'acceptation** : le problème précède la solution ; les concepts information, système, complexité, interaction et émergence sont introduits ; les limites du chapitre sont respectées ; les sections finales obligatoires sont présentes.
+- **Dépendances** : BMAD-009, BMAD-011.
+
+### BMAD-017 — Relire le chapitre fondateur 01 contre la checklist v0.1
+
+- **Epic** : EPIC-06
+- **Statut** : BLOCKED
+- **Contexte** : la première version doit être relue comme un composant documentaire avant d'étendre la rédaction.
+- **Fichiers concernés** : `foundations/01_information_complexite_emergence.md`, `QUALITY_CHECKLIST.md`, `DEPENDENCIES.md`
+- **Critères d'acceptation** : les écarts sont corrigés ou listés ; aucun nouveau sujet autonome n'est enfoui dans le chapitre ; les dépendances pédagogiques restent cohérentes.
+- **Dépendances** : BMAD-016.
+
+### BMAD-018 — Cadrer le chapitre `foundations/02`
+
+- **Epic** : EPIC-04
+- **Statut** : BLOCKED
+- **Contexte** : le chapitre sur la division des responsabilités doit s'appuyer sur le chapitre fondateur 01.
+- **Fichiers concernés** : `foundations/02_diviser_pour_mieux_comprendre.md`, `DEPENDENCIES.md`
+- **Critères d'acceptation** : objectifs, prérequis, notions, limites et déclic visé sont explicités ; aucun chapitre complet n'est rédigé.
+- **Dépendances** : BMAD-017.
+
+### BMAD-019 — Rédiger une première version courte du chapitre `foundations/02`
+
+- **Epic** : EPIC-04
+- **Statut** : BLOCKED
+- **Contexte** : après cadrage, le chapitre doit expliquer le découpage en responsabilités testables.
+- **Fichiers concernés** : `foundations/02_diviser_pour_mieux_comprendre.md`
+- **Critères d'acceptation** : le chapitre reste centré sur les principes ; les contrats et responsabilités sont reliés aux fondations ; les sections finales obligatoires sont présentes.
+- **Dépendances** : BMAD-018.
+
+### BMAD-020 — Cadrer le chapitre `foundations/03` après recadrage
+
+- **Epic** : EPIC-04
+- **Statut** : BLOCKED
+- **Contexte** : `foundations/03` doit rester centré sur interfaces, contrats et frontières de composants.
+- **Fichiers concernés** : `foundations/03_interfaces_orchestration_observabilite.md`, `DEPENDENCIES.md`
+- **Critères d'acceptation** : objectifs, prérequis, notions, limites et déclic visé sont explicités ; orchestration et observabilité restent des ouvertures.
+- **Dépendances** : BMAD-017.
+
+### BMAD-021 — Rédiger une première version courte du chapitre `foundations/03`
+
+- **Epic** : EPIC-04
+- **Statut** : BLOCKED
+- **Contexte** : après cadrage, le chapitre doit préparer l'architecture sans anticiper les sections aval.
+- **Fichiers concernés** : `foundations/03_interfaces_orchestration_observabilite.md`
+- **Critères d'acceptation** : le chapitre explique les interfaces et contrats ; il annonce orchestration et observabilité sans les détailler ; les sections finales obligatoires sont présentes.
+- **Dépendances** : BMAD-020.
+
+### BMAD-022 — Aligner les pages `docs/` avec v0.1
+
+- **Epic** : EPIC-06
+- **Statut** : BLOCKED
+- **Contexte** : les pages d'entrée doivent préparer la lecture de v0.1 sans devenir une introduction générale trop longue.
+- **Fichiers concernés** : `docs/`, `README.md`, `TABLE_OF_CONTENTS.md`
+- **Critères d'acceptation** : les pages `docs/` orientent vers le parcours v0.1 ; les liens sont cohérents ; aucun chapitre conceptuel n'est dupliqué.
+- **Dépendances** : BMAD-017.
+
+### BMAD-023 — Auditer la publiabilité de v0.1
+
+- **Epic** : EPIC-06
+- **Statut** : BLOCKED
+- **Contexte** : avant release, v0.1 doit être vérifiée contre la checklist et la Definition of Done.
+- **Fichiers concernés** : `ROADMAP.md`, `QUALITY_CHECKLIST.md`, `bmad/04_definition_of_done.md`, `TABLE_OF_CONTENTS.md`
+- **Critères d'acceptation** : les critères v0.1 sont satisfaits ou les écarts sont listés ; aucune correction hors périmètre n'est appliquée ; une recommandation `GO` ou `NO GO` est produite.
+- **Dépendances** : BMAD-019, BMAD-021, BMAD-022.
+
 ## Questions à traiter
 
 - La tâche est-elle assez petite pour être exécutée en une session ?
