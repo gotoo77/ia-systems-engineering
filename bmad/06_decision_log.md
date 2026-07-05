@@ -53,6 +53,14 @@ Chaque entrée doit contenir :
 - **Fichiers concernés** : `COMMANDS.md`, `architecture/adr/ADR-0002-bootstrap-command.md`, `architecture/adr/ADR-0001-production-gate.md`.
 - **Alternatives rejetées** : lancer directement `next` en production ; conserver une validation de phase implicite.
 
+### 2026-07-05 — Design review M0 : NO GO
+
+- **Décision** : ne pas passer en `M1 - Production` à ce stade.
+- **Contexte** : la revue M0 confirme que la gouvernance existe, mais que les critères d'acceptabilité du modèle de domaine et du graphe pédagogique ne sont pas encore objectivés.
+- **Impact** : la production des chapitres reste bloquée ; les tâches BMAD minimales restantes sont ajoutées.
+- **Fichiers concernés** : `bmad/02_backlog.md`, `bmad/03_next_action.md`, `bmad/06_decision_log.md`.
+- **Alternatives rejetées** : passer en production avec des critères implicites ; relancer une amélioration illimitée du système.
+
 ## Questions à traiter
 
 - Cette décision change-t-elle la structure du projet ?

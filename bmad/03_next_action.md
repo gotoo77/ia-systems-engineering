@@ -127,6 +127,24 @@ Ce fichier est le point d'entrée de la commande opérationnelle `next`. Une ses
 - **Critères d'acceptation** : critères de revue M0 listés ; rôle `Knowledge Program Manager` pris en compte ; aucune rédaction de chapitre lancée.
 - **Dépendances** : BMAD-002, BMAD-006, BMAD-010.
 
+### BMAD-014 — Définir les critères GO/NO GO de M0
+
+- **Epic** : EPIC-00
+- **Statut** : TODO
+- **Contexte** : la design review M0 a montré que les critères "acceptable" doivent devenir vérifiables avant passage en production.
+- **Fichiers concernés** : `architecture/adr/ADR-0001-production-gate.md`, `QUALITY_CHECKLIST.md`, `bmad/04_definition_of_done.md`
+- **Critères d'acceptation** : critères M0 objectivables ; verdict GO/NO GO reproductible ; aucune rédaction de chapitre.
+- **Dépendances** : BMAD-001.
+
+### BMAD-015 — Identifier la première tâche de production M1
+
+- **Epic** : EPIC-06
+- **Statut** : BLOCKED
+- **Contexte** : le passage en M1 doit débloquer une première tâche de production clairement définie, pas une intention vague de rédaction.
+- **Fichiers concernés** : `bmad/03_next_action.md`, `ROADMAP.md`, `TABLE_OF_CONTENTS.md`
+- **Critères d'acceptation** : première tâche M1 identifiée ; dépendances explicites ; aucun chapitre produit.
+- **Dépendances** : BMAD-009, BMAD-013, BMAD-014.
+
 ## Questions à traiter
 
 - Quelle est la première tâche `READY` ?
