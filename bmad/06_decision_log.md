@@ -61,6 +61,14 @@ Chaque entrée doit contenir :
 - **Fichiers concernés** : `bmad/02_backlog.md`, `bmad/03_next_action.md`, `bmad/06_decision_log.md`.
 - **Alternatives rejetées** : passer en production avec des critères implicites ; relancer une amélioration illimitée du système.
 
+### 2026-07-05 — Clôture M0 et passage en M1 Production
+
+- **Décision** : valider M0 et passer en `M1 - Production`.
+- **Contexte** : les critères objectifs de sortie M0 sont définis dans `ADR-0001` et satisfaits par les artefacts existants.
+- **Impact** : `BMAD-009` devient la seule tâche `READY`; les changements majeurs de gouvernance deviennent exceptionnels.
+- **Fichiers concernés** : `architecture/adr/ADR-0001-production-gate.md`, `architecture/adr/ADR-0003-m1-production.md`, `bmad/02_backlog.md`, `bmad/03_next_action.md`.
+- **Alternatives rejetées** : prolonger M0 pour perfectionner le modèle de domaine ; produire directement un chapitre complet.
+
 ## Questions à traiter
 
 - Cette décision change-t-elle la structure du projet ?

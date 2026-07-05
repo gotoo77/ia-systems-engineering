@@ -13,7 +13,7 @@ Ce fichier est le point d'entrée de la commande opérationnelle `next`. Une ses
 ### BMAD-001 — Valider le système BMAD
 
 - **Epic** : EPIC-00
-- **Statut** : READY
+- **Statut** : DONE
 - **Contexte** : le dossier `bmad/` vient d'être créé et doit être vérifié comme système de pilotage.
 - **Fichiers concernés** : `bmad/*`, `AGENTS.md`, `README.md`
 - **Critères d'acceptation** : les fichiers BMAD existent ; `next` est défini ; `AGENTS.md` référence le démarrage agentique ; aucun chapitre n'est modifié.
@@ -22,7 +22,7 @@ Ce fichier est le point d'entrée de la commande opérationnelle `next`. Une ses
 ### BMAD-002 — Consolider les sources de vérité
 
 - **Epic** : EPIC-00
-- **Statut** : TODO
+- **Statut** : DONE
 - **Contexte** : `GOVERNANCE.md` doit devenir le point d'entrée des responsabilités documentaires.
 - **Fichiers concernés** : `GOVERNANCE.md`, `README.md`, `CONTRIBUTING.md`
 - **Critères d'acceptation** : chaque fichier de gouvernance a une responsabilité unique ; les doublons évidents sont supprimés.
@@ -31,7 +31,7 @@ Ce fichier est le point d'entrée de la commande opérationnelle `next`. Une ses
 ### BMAD-003 — Formaliser le format d'un concept
 
 - **Epic** : EPIC-01
-- **Statut** : TODO
+- **Statut** : DONE
 - **Contexte** : `DOMAIN_MODEL.md` liste les concepts mais doit stabiliser leur format.
 - **Fichiers concernés** : `DOMAIN_MODEL.md`, `templates/concept_card_template.md`
 - **Critères d'acceptation** : le format conceptuel est clair ; les champs responsabilité, frontières, relations et contre-exemples sont présents.
@@ -85,11 +85,11 @@ Ce fichier est le point d'entrée de la commande opérationnelle `next`. Une ses
 ### BMAD-009 — Préparer le cadrage du premier chapitre fondateur
 
 - **Epic** : EPIC-04
-- **Statut** : BLOCKED
+- **Statut** : READY
 - **Contexte** : aucun chapitre ne doit être rédigé avant stabilisation du domaine.
 - **Fichiers concernés** : `foundations/01_information_complexite_emergence.md`, `DOMAIN_MODEL.md`, `DEPENDENCIES.md`
 - **Critères d'acceptation** : objectifs, prérequis, notions et limites sont cadrés.
-- **Dépendances** : BMAD-004, BMAD-006.
+- **Dépendances** : M1 validé par `architecture/adr/ADR-0003-m1-production.md`.
 
 ### BMAD-010 — Définir le rôle des labs
 
@@ -121,7 +121,7 @@ Ce fichier est le point d'entrée de la commande opérationnelle `next`. Une ses
 ### BMAD-013 — Préparer la Design Review M0
 
 - **Epic** : EPIC-00
-- **Statut** : BLOCKED
+- **Statut** : DONE
 - **Contexte** : le passage en production doit être décidé par une revue de phase, pas par inertie.
 - **Fichiers concernés** : `architecture/adr/ADR-0001-production-gate.md`, `bmad/06_decision_log.md`, `QUALITY_CHECKLIST.md`
 - **Critères d'acceptation** : critères de revue M0 listés ; rôle `Knowledge Program Manager` pris en compte ; aucune rédaction de chapitre lancée.
@@ -130,7 +130,7 @@ Ce fichier est le point d'entrée de la commande opérationnelle `next`. Une ses
 ### BMAD-014 — Définir les critères GO/NO GO de M0
 
 - **Epic** : EPIC-00
-- **Statut** : TODO
+- **Statut** : DONE
 - **Contexte** : la design review M0 a montré que les critères "acceptable" doivent devenir vérifiables avant passage en production.
 - **Fichiers concernés** : `architecture/adr/ADR-0001-production-gate.md`, `QUALITY_CHECKLIST.md`, `bmad/04_definition_of_done.md`
 - **Critères d'acceptation** : critères M0 objectivables ; verdict GO/NO GO reproductible ; aucune rédaction de chapitre.
@@ -139,7 +139,7 @@ Ce fichier est le point d'entrée de la commande opérationnelle `next`. Une ses
 ### BMAD-015 — Identifier la première tâche de production M1
 
 - **Epic** : EPIC-06
-- **Statut** : BLOCKED
+- **Statut** : DONE
 - **Contexte** : le passage en M1 doit débloquer une première tâche de production clairement définie, pas une intention vague de rédaction.
 - **Fichiers concernés** : `bmad/03_next_action.md`, `ROADMAP.md`, `TABLE_OF_CONTENTS.md`
 - **Critères d'acceptation** : première tâche M1 identifiée ; dépendances explicites ; aucun chapitre produit.
