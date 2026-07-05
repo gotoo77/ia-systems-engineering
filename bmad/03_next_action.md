@@ -150,7 +150,7 @@ Ce fichier est le point d'entrée de la commande opérationnelle `next`. Une ses
 ### BMAD-016 — Rédiger une première version courte du chapitre fondateur 01
 
 - **Epic** : EPIC-04
-- **Statut** : READY
+- **Statut** : DONE
 - **Contexte** : le chapitre `foundations/01` est cadré ; il faut produire une première version maintenable sans chercher la perfection.
 - **Fichiers concernés** : `foundations/01_information_complexite_emergence.md`
 - **Critères d'acceptation** : le problème précède la solution ; les concepts information, système, complexité, interaction et émergence sont introduits ; les limites du chapitre sont respectées ; les sections finales obligatoires sont présentes.
@@ -159,7 +159,7 @@ Ce fichier est le point d'entrée de la commande opérationnelle `next`. Une ses
 ### BMAD-017 — Relire le chapitre fondateur 01 contre la checklist v0.1
 
 - **Epic** : EPIC-06
-- **Statut** : BLOCKED
+- **Statut** : READY
 - **Contexte** : la première version doit être relue comme un composant documentaire avant d'étendre la rédaction.
 - **Fichiers concernés** : `foundations/01_information_complexite_emergence.md`, `QUALITY_CHECKLIST.md`, `DEPENDENCIES.md`
 - **Critères d'acceptation** : les écarts sont corrigés ou listés ; aucun nouveau sujet autonome n'est enfoui dans le chapitre ; les dépendances pédagogiques restent cohérentes.
