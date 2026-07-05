@@ -43,6 +43,7 @@ La gouvernance du projet est définie dans `GOVERNANCE.md`.
 Voir `TABLE_OF_CONTENTS.md` pour l'ordre détaillé des chapitres.
 Voir `DEPENDENCIES.md` pour les dépendances pédagogiques.
 Voir `bmad/00_operating_model.md` pour le pilotage opérationnel du projet.
+Voir `COMMANDS.md` pour les commandes disponibles.
 
 ## Statut
 

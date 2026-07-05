@@ -16,6 +16,7 @@ Ce fichier définit quel document porte quelle responsabilité. Il évite que le
 - `DEPENDENCIES.md` : graphe pédagogique.
 - `STYLE_GUIDE.md` : règles d'écriture.
 - `QUALITY_CHECKLIST.md` : critères de validation.
+- `COMMANDS.md` : commandes opérationnelles.
 - `AGENTS.md` : protocole d'intervention des agents.
 - `CONTRIBUTING.md` : workflow contributeur.
 - `architecture/adr/` : mémoire des décisions structurantes.

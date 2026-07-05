@@ -26,6 +26,8 @@ Ce fichier explique comment travailler par petites tâches séquentielles, véri
 
 ## Commande opérationnelle : next
 
+La liste des commandes disponibles est définie dans `COMMANDS.md`. Cette section définit uniquement le protocole d'exécution de `next`.
+
 Quand l'utilisateur dit `next`, l'agent doit :
 
 1. Lire `bmad/03_next_action.md`.

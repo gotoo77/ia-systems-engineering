@@ -17,6 +17,7 @@ Toute session agentique doit commencer par lire :
 3. `GOVERNANCE.md`
 4. `DOMAIN_MODEL.md`
 5. `DEPENDENCIES.md`
+6. `COMMANDS.md`
 
 Avant toute modification significative, compléter ensuite avec :
 
@@ -29,7 +30,7 @@ Avant toute modification significative, compléter ensuite avec :
 ## Protocole d'intervention
 
 - Identifier le fichier source de vérité avant d'ajouter une règle.
-- Si l'utilisateur dit `next`, appliquer strictement `bmad/00_operating_model.md`.
+- Si l'utilisateur emploie une commande de `COMMANDS.md`, appliquer le protocole associé.
 - Analyser l'impact sur la progression pédagogique.
 - Rechercher les doublons avec les fichiers existants.
 - Vérifier que le périmètre du chapitre reste stable.
