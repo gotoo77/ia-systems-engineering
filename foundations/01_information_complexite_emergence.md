@@ -157,13 +157,13 @@ Une bonne architecture cherche un niveau de structure suffisant pour comprendre 
 
 ## Termes à relier
 
-- Information.
-- Système.
-- Complexité.
-- Interaction.
-- Émergence.
-- Observabilité.
-- Évaluation.
+- Information : à ajouter au glossaire.
+- Système : à ajouter au glossaire.
+- Complexité : à ajouter au glossaire.
+- Interaction : à ajouter au glossaire.
+- Émergence : à ajouter au glossaire.
+- Observabilité : à ajouter au glossaire.
+- Évaluation : à ajouter au glossaire.
 
 ## À retenir
 
@@ -193,10 +193,12 @@ Il pose seulement le vocabulaire nécessaire pour comprendre pourquoi ces sujets
 
 ## Checklist qualité
 
-- [ ] Déclic de compréhension identifié.
-- [ ] Intention unique.
-- [ ] Questions de conception explicites.
-- [ ] Concepts reliés au glossaire si nécessaire.
-- [ ] Responsabilités ou limites clarifiées.
-- [ ] Compromis d'architecture visibles.
-- [ ] Chapitre lisible seul.
+- [x] Déclic de compréhension identifié.
+- [x] Intention unique.
+- [x] Questions de conception explicites.
+- [ ] Concepts racines à ajouter au glossaire.
+- [x] Responsabilités ou limites clarifiées.
+- [x] Compromis d'architecture visibles.
+- [x] Limites ou modes d'échec mentionnés.
+- [x] Exemple court et maintenable.
+- [x] Chapitre lisible seul.

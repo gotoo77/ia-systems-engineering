@@ -114,6 +114,15 @@ Ces concepts préparent directement :
 - `orchestration/01_patterns_d_orchestration.md` ;
 - `agents/01_pourquoi_les_agents.md`.
 
+## Relecture de `foundations/01`
+
+La première version du chapitre respecte son périmètre si :
+
+- les concepts racines restent limités à information, système, complexité, interaction et émergence ;
+- les références aux LLM, agents, mémoire et orchestration restent des ouvertures ;
+- aucune solution d'architecture détaillée n'est introduite avant les chapitres dédiés ;
+- les termes racines manquants sont ajoutés au glossaire dans une tâche dédiée.
+
 ## Questions à traiter
 
 - Une notion est-elle utilisée avant d'être introduite ?

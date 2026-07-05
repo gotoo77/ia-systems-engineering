@@ -159,7 +159,7 @@ Ce fichier sert de réservoir de tâches. L'exécution opérationnelle se fait d
 ### BMAD-017 — Relire le chapitre fondateur 01 contre la checklist v0.1
 
 - **Epic** : EPIC-06
-- **Statut** : READY
+- **Statut** : DONE
 - **Contexte** : la première version doit être relue comme un composant documentaire avant d'étendre la rédaction.
 - **Fichiers concernés** : `foundations/01_information_complexite_emergence.md`, `QUALITY_CHECKLIST.md`, `DEPENDENCIES.md`
 - **Critères d'acceptation** : les écarts sont corrigés ou listés ; aucun nouveau sujet autonome n'est enfoui dans le chapitre ; les dépendances pédagogiques restent cohérentes.
@@ -168,7 +168,7 @@ Ce fichier sert de réservoir de tâches. L'exécution opérationnelle se fait d
 ### BMAD-018 — Cadrer le chapitre `foundations/02`
 
 - **Epic** : EPIC-04
-- **Statut** : BLOCKED
+- **Statut** : READY
 - **Contexte** : le chapitre sur la division des responsabilités doit s'appuyer sur le chapitre fondateur 01.
 - **Fichiers concernés** : `foundations/02_diviser_pour_mieux_comprendre.md`, `DEPENDENCIES.md`
 - **Critères d'acceptation** : objectifs, prérequis, notions, limites et déclic visé sont explicités ; aucun chapitre complet n'est rédigé.
