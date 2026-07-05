@@ -77,6 +77,14 @@ Chaque entrée doit contenir :
 - **Fichiers concernés** : `foundations/03_interfaces_orchestration_observabilite.md`, `DEPENDENCIES.md`.
 - **Alternatives rejetées** : rédiger un chapitre d'architecture complète dans les fondations ; renommer ou déplacer le fichier immédiatement.
 
+### 2026-07-05 — Rôle des labs
+
+- **Décision** : définir les labs comme expériences de validation d'hypothèses d'architecture.
+- **Contexte** : les labs risquaient de devenir des tutoriels outils ou des chapitres conceptuels parallèles.
+- **Impact** : chaque lab doit partir d'une hypothèse, produire une observation et éclairer une décision d'architecture.
+- **Fichiers concernés** : `labs/README.md`, `templates/experiment_template.md`, `DEPENDENCIES.md`.
+- **Alternatives rejetées** : documenter des installations pas à pas ; utiliser les labs pour introduire des concepts centraux avant les chapitres.
+
 ## Questions à traiter
 
 - Cette décision change-t-elle la structure du projet ?

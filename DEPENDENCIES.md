@@ -62,7 +62,7 @@ Composant
 - `memory/` dépend du contexte, des embeddings et de l'indexation.
 - `orchestration/` dépend des modèles, outils, agents et mémoires.
 - `assistant-dev/` intègre les sections précédentes dans un cas système.
-- `labs/` valident des hypothèses d'architecture ; ils ne remplacent pas les chapitres conceptuels.
+- `labs/` valident des hypothèses d'architecture par expérience ; ils ne remplacent pas les chapitres conceptuels ni les tutoriels outils.
 - `prospective/` dépend des concepts stabilisés avant de formuler des hypothèses.
 
 ## Table de dépendances exploitable
@@ -79,6 +79,15 @@ Composant
 | `assistant-dev/` | LLM, moteurs, agents, mémoire, orchestration. | Assistant de développement local, permissions, boucle git/tests. | Tous les concepts précédents. |
 | `labs/` | Chapitres conceptuels concernés. | Hypothèse, protocole, métrique, validation expérimentale. | Patterns, composants, observabilité. |
 | `prospective/` | Concepts stabilisés du modèle de domaine. | Self-scaffolding, inference-time scaling, systèmes intelligents. | Graphe pédagogique complet. |
+
+## Rôle des labs
+
+Les labs servent à tester une hypothèse issue d'un chapitre conceptuel.
+
+- **Entrée** : un concept ou un pattern déjà cadré.
+- **Sortie** : une observation et une décision d'architecture possible.
+- **Critère de réussite** : l'expérience apprend quelque chose même si le résultat est négatif.
+- **Limite** : un lab ne doit pas introduire un concept central avant son chapitre.
 
 ## Frontière de `foundations/03`
 

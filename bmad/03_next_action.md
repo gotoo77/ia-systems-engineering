@@ -94,7 +94,7 @@ Ce fichier est le point d'entrée de la commande opérationnelle `next`. Une ses
 ### BMAD-010 — Définir le rôle des labs
 
 - **Epic** : EPIC-05
-- **Statut** : READY
+- **Statut** : DONE
 - **Contexte** : les labs doivent valider des hypothèses d'architecture, pas devenir des tutoriels.
 - **Fichiers concernés** : `labs/`, `templates/experiment_template.md`, `DEPENDENCIES.md`
 - **Critères d'acceptation** : rôle, format et critères de validation des labs sont explicités.
@@ -103,7 +103,7 @@ Ce fichier est le point d'entrée de la commande opérationnelle `next`. Une ses
 ### BMAD-011 — Créer une checklist v0.1 publiable
 
 - **Epic** : EPIC-06
-- **Statut** : BLOCKED
+- **Statut** : READY
 - **Contexte** : la version v0.1 doit avoir un périmètre vérifiable.
 - **Fichiers concernés** : `ROADMAP.md`, `QUALITY_CHECKLIST.md`, `bmad/04_definition_of_done.md`
 - **Critères d'acceptation** : critères de publication v0.1 explicites.
