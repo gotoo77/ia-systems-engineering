@@ -65,6 +65,23 @@ Composant
 - `labs/` valident des hypothèses d'architecture ; ils ne remplacent pas les chapitres conceptuels.
 - `prospective/` dépend des concepts stabilisés avant de formuler des hypothèses.
 
+## Premier chapitre fondateur
+
+`foundations/01_information_complexite_emergence.md` introduit les concepts racines suivants :
+
+- information ;
+- système ;
+- complexité ;
+- interaction ;
+- émergence.
+
+Ces concepts préparent directement :
+
+- `foundations/02_diviser_pour_mieux_comprendre.md` ;
+- `foundations/03_interfaces_orchestration_observabilite.md` ;
+- `orchestration/01_patterns_d_orchestration.md` ;
+- `agents/01_pourquoi_les_agents.md`.
+
 ## Questions à traiter
 
 - Une notion est-elle utilisée avant d'être introduite ?

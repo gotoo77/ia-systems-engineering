@@ -40,7 +40,7 @@ Ce fichier est le point d'entrée de la commande opérationnelle `next`. Une ses
 ### BMAD-004 — Définir les frontières contexte, mémoire, RAG
 
 - **Epic** : EPIC-01
-- **Statut** : BLOCKED
+- **Statut** : READY
 - **Contexte** : ces concepts risquent de se chevaucher dans plusieurs chapitres.
 - **Fichiers concernés** : `DOMAIN_MODEL.md`, `GLOSSARY.md`
 - **Critères d'acceptation** : les frontières sont explicites ; les confusions fréquentes sont listées.
@@ -85,7 +85,7 @@ Ce fichier est le point d'entrée de la commande opérationnelle `next`. Une ses
 ### BMAD-009 — Préparer le cadrage du premier chapitre fondateur
 
 - **Epic** : EPIC-04
-- **Statut** : READY
+- **Statut** : DONE
 - **Contexte** : aucun chapitre ne doit être rédigé avant stabilisation du domaine.
 - **Fichiers concernés** : `foundations/01_information_complexite_emergence.md`, `DOMAIN_MODEL.md`, `DEPENDENCIES.md`
 - **Critères d'acceptation** : objectifs, prérequis, notions et limites sont cadrés.

@@ -22,6 +22,11 @@ Chaque concept important doit être décrit avec :
 
 ## Concepts initiaux
 
+- **Information** : contenu transmis, transformé ou sélectionné par un système.
+- **Système** : ensemble de composants en interaction produisant un comportement observable.
+- **Complexité** : difficulté à prédire le comportement global à partir des seules parties isolées.
+- **Interaction** : relation par laquelle un composant influence un autre composant ou un état partagé.
+- **Émergence** : comportement global produit par des interactions locales, non évident à partir d'un composant seul.
 - **Modèle** : composant qui transforme une entrée en sortie selon des paramètres appris.
 - **Inférence** : exécution d'un modèle pour produire une sortie.
 - **Moteur d'inférence** : couche d'exécution entre modèle, matériel et application.
@@ -40,6 +45,10 @@ Chaque concept important doit être décrit avec :
 
 ## Frontières à clarifier
 
+- Information vs donnée.
+- Système vs composant.
+- Complexité vs complication.
+- Émergence vs effet magique.
 - Contexte vs mémoire.
 - Embedding vs indexation.
 - RAG vs mémoire.
