@@ -103,3 +103,4 @@ Chaque concept important doit être décrit avec :
 - Quels concepts sont centraux pour le domaine ?
 - Où commence et où s'arrête chaque concept ?
 - Quelles confusions doivent être empêchées avant la rédaction ?
+- Le glossaire reflète-t-il les concepts initiaux sans créer de dictionnaire parallèle ?

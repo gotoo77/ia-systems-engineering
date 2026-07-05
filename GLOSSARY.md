@@ -26,6 +26,44 @@ Stabiliser le vocabulaire commun du manuel.
 - **Hallucination** : production plausible mais fausse, non fondée ou non vérifiée.
 - **Benchmark** : évaluation comparative selon une tâche, un protocole et des métriques.
 
+## Audit d'alignement avec le modèle de domaine
+
+Le glossaire doit refléter le langage du domaine défini dans `DOMAIN_MODEL.md`. Il ne doit pas devenir un dictionnaire parallèle.
+
+### Termes présents à conserver
+
+- Modèle.
+- Inférence.
+- Moteur d'inférence.
+- Token.
+- Contexte.
+- Mémoire.
+- Embedding.
+- RAG.
+- Agent.
+- Orchestrateur.
+
+### Termes manquants à ajouter
+
+- Information.
+- Système.
+- Complexité.
+- Interaction.
+- Émergence.
+- Indexation.
+- Outil.
+- Observabilité.
+- Évaluation.
+- Assistant de développement local.
+
+### Termes voisins à arbitrer avant définition
+
+- Donnée vs information.
+- Composant vs système.
+- Protocole vs outil.
+- Benchmark vs évaluation.
+- Mémoire documentaire vs RAG.
+
 ## Questions à traiter
 
 - Quels termes doivent être définis avant leur usage ?

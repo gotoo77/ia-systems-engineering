@@ -112,7 +112,7 @@ Ce fichier est le point d'entrée de la commande opérationnelle `next`. Une ses
 ### BMAD-012 — Auditer le glossaire comme langage du domaine
 
 - **Epic** : EPIC-01
-- **Statut** : READY
+- **Statut** : DONE
 - **Contexte** : le glossaire doit refléter le modèle de domaine, pas seulement définir des mots.
 - **Fichiers concernés** : `GLOSSARY.md`, `DOMAIN_MODEL.md`
 - **Critères d'acceptation** : termes manquants identifiés ; aucune définition longue ajoutée sans validation.
