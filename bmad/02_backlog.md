@@ -76,7 +76,7 @@ Ce fichier sert de réservoir de tâches. L'exécution opérationnelle se fait d
 ### BMAD-008 — Recadrer les frontières de `foundations/03`
 
 - **Epic** : EPIC-03
-- **Statut** : READY
+- **Statut** : DONE
 - **Contexte** : interfaces, orchestration et observabilité sont regroupées trop tôt.
 - **Fichiers concernés** : `foundations/03_interfaces_orchestration_observabilite.md`, `DEPENDENCIES.md`
 - **Critères d'acceptation** : un plan de recadrage est proposé sans rédaction complète.
@@ -94,7 +94,7 @@ Ce fichier sert de réservoir de tâches. L'exécution opérationnelle se fait d
 ### BMAD-010 — Définir le rôle des labs
 
 - **Epic** : EPIC-05
-- **Statut** : TODO
+- **Statut** : READY
 - **Contexte** : les labs doivent valider des hypothèses d'architecture, pas devenir des tutoriels.
 - **Fichiers concernés** : `labs/`, `templates/experiment_template.md`, `DEPENDENCIES.md`
 - **Critères d'acceptation** : rôle, format et critères de validation des labs sont explicités.

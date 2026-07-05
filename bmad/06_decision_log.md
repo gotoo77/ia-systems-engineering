@@ -69,6 +69,14 @@ Chaque entrée doit contenir :
 - **Fichiers concernés** : `architecture/adr/ADR-0001-production-gate.md`, `architecture/adr/ADR-0003-m1-production.md`, `bmad/02_backlog.md`, `bmad/03_next_action.md`.
 - **Alternatives rejetées** : prolonger M0 pour perfectionner le modèle de domaine ; produire directement un chapitre complet.
 
+### 2026-07-05 — Recadrage de `foundations/03`
+
+- **Décision** : limiter `foundations/03` aux interfaces, contrats et frontières de composants.
+- **Contexte** : orchestration et observabilité apparaissaient trop tôt comme sujets complets dans les fondations.
+- **Impact** : orchestration, observabilité, évaluation et feedback restent annoncés mais sont approfondis dans les sections aval.
+- **Fichiers concernés** : `foundations/03_interfaces_orchestration_observabilite.md`, `DEPENDENCIES.md`.
+- **Alternatives rejetées** : rédiger un chapitre d'architecture complète dans les fondations ; renommer ou déplacer le fichier immédiatement.
+
 ## Questions à traiter
 
 - Cette décision change-t-elle la structure du projet ?

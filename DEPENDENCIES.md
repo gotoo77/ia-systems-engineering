@@ -55,7 +55,7 @@ Composant
 
 ## Dépendances par section
 
-- `foundations/` prépare les notions de système, composant, interface et contrat.
+- `foundations/` prépare les notions de système, composant, interface et contrat ; orchestration et observabilité y restent des ouvertures.
 - `llm/` prépare les notions de modèle, token, contexte et limites.
 - `engines/` dépend de `llm/` et prépare les choix d'exécution.
 - `agents/` dépend de `llm/`, `engines/` et des interfaces.
@@ -79,6 +79,14 @@ Composant
 | `assistant-dev/` | LLM, moteurs, agents, mémoire, orchestration. | Assistant de développement local, permissions, boucle git/tests. | Tous les concepts précédents. |
 | `labs/` | Chapitres conceptuels concernés. | Hypothèse, protocole, métrique, validation expérimentale. | Patterns, composants, observabilité. |
 | `prospective/` | Concepts stabilisés du modèle de domaine. | Self-scaffolding, inference-time scaling, systèmes intelligents. | Graphe pédagogique complet. |
+
+## Frontière de `foundations/03`
+
+`foundations/03_interfaces_orchestration_observabilite.md` doit préparer l'architecture sans l'anticiper.
+
+- **À introduire** : interface, contrat, frontière de composant.
+- **À annoncer** : orchestration, observabilité, évaluation.
+- **À reporter** : patterns d'orchestration, multi-agents, boucles de feedback, instrumentation détaillée.
 
 ## Premier chapitre fondateur
 
