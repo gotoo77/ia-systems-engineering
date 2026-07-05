@@ -168,7 +168,7 @@ Ce fichier est le point d'entrée de la commande opérationnelle `next`. Une ses
 ### BMAD-018 — Cadrer le chapitre `foundations/02`
 
 - **Epic** : EPIC-04
-- **Statut** : READY
+- **Statut** : DONE
 - **Contexte** : le chapitre sur la division des responsabilités doit s'appuyer sur le chapitre fondateur 01.
 - **Fichiers concernés** : `foundations/02_diviser_pour_mieux_comprendre.md`, `DEPENDENCIES.md`
 - **Critères d'acceptation** : objectifs, prérequis, notions, limites et déclic visé sont explicités ; aucun chapitre complet n'est rédigé.
@@ -177,7 +177,7 @@ Ce fichier est le point d'entrée de la commande opérationnelle `next`. Une ses
 ### BMAD-019 — Rédiger une première version courte du chapitre `foundations/02`
 
 - **Epic** : EPIC-04
-- **Statut** : BLOCKED
+- **Statut** : READY
 - **Contexte** : après cadrage, le chapitre doit expliquer le découpage en responsabilités testables.
 - **Fichiers concernés** : `foundations/02_diviser_pour_mieux_comprendre.md`
 - **Critères d'acceptation** : le chapitre reste centré sur les principes ; les contrats et responsabilités sont reliés aux fondations ; les sections finales obligatoires sont présentes.

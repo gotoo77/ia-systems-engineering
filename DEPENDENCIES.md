@@ -123,6 +123,15 @@ La première version du chapitre respecte son périmètre si :
 - aucune solution d'architecture détaillée n'est introduite avant les chapitres dédiés ;
 - les termes racines manquants sont ajoutés au glossaire dans une tâche dédiée.
 
+## Cadrage de `foundations/02`
+
+`foundations/02_diviser_pour_mieux_comprendre.md` transforme les concepts racines en stratégie de découpage.
+
+- **Prérequis** : information, système, complexité, interaction, émergence.
+- **À introduire** : composant, responsabilité, frontière, interface, contrat, couplage, cohésion, testabilité.
+- **À reporter** : orchestration détaillée, agents, mémoire, moteurs d'inférence, choix d'outils.
+- **Déclic visé** : un bon découpage rend les responsabilités observables, testables et remplaçables.
+
 ## Questions à traiter
 
 - Une notion est-elle utilisée avant d'être introduite ?
