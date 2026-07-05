@@ -67,3 +67,11 @@ Chaque observation doit rester courte.
 - **Signal positif** : les modifications récentes référencent les sources au lieu de recopier les règles.
 - **Risque** : trop de sources de vérité peuvent devenir difficiles à parcourir.
 - **Statut** : CANDIDAT
+
+### OBS-006 — Les architectures se découvrent par l'expérience
+
+- **Constat** : "Les meilleures architectures ne sont peut-être pas celles que l'on invente. Ce sont celles que l'on découvre en observant attentivement ce qui survit à l'expérience."
+- **Hypothèse** : un framework robuste doit être extrait d'expériences répétées plutôt que conçu abstraitement au départ.
+- **Signal positif** : plusieurs règles actuelles du dépôt viennent d'observations concrètes plutôt que d'une doctrine préalable.
+- **Risque** : transformer trop vite une belle formulation en invariant non testé.
+- **Statut** : CANDIDAT
