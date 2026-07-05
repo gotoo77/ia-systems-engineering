@@ -17,6 +17,14 @@ Planifier l'écriture par lots incrémentaux, sans figer trop tôt le contenu fi
 - Définir le vocabulaire de base.
 - Poser les critères de qualité système.
 
+### Critères de publication v0.1
+
+- Les chapitres `docs/` et `foundations/` ont une intention, un périmètre et une checklist cohérents.
+- Les concepts racines sont alignés avec `DOMAIN_MODEL.md`.
+- Les dépendances pédagogiques de `foundations/` sont explicites dans `DEPENDENCIES.md`.
+- Aucun chapitre de fondation n'anticipe les sections `llm/`, `agents/`, `memory/` ou `orchestration/` au-delà d'une ouverture.
+- Les liens Markdown sont vérifiés.
+
 ## v0.2 - LLM
 
 - Expliquer tokens, contexte, embeddings et hallucinations.

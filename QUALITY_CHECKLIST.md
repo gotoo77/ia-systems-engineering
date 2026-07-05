@@ -32,6 +32,16 @@ Ce fichier sert de contrôle qualité. Il ne remplace pas le jugement éditorial
 - [ ] Une extraction de chapitre a été envisagée si le sujet devient autonome.
 - [ ] `TABLE_OF_CONTENTS.md` et `ROADMAP.md` sont mis à jour si nécessaire.
 
+## Checklist v0.1 publiable
+
+- [ ] `docs/` et `foundations/` ont un rôle clair dans la progression pédagogique.
+- [ ] Les concepts racines sont nommés de façon cohérente dans `DOMAIN_MODEL.md`, `DEPENDENCIES.md` et les chapitres concernés.
+- [ ] Les chapitres de fondation restent centrés sur les principes, pas sur les outils.
+- [ ] Les limites de chaque chapitre de fondation sont explicites.
+- [ ] Les ouvertures vers LLM, agents, mémoire et orchestration ne remplacent pas les sections dédiées.
+- [ ] Les liens Markdown ajoutés pointent vers des fichiers existants.
+- [ ] La prochaine version prévue est identifiable dans `ROADMAP.md`.
+
 ## Questions à traiter
 
 - Le changement améliore-t-il la compréhension durable du lecteur ?

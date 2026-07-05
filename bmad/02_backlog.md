@@ -103,7 +103,7 @@ Ce fichier sert de réservoir de tâches. L'exécution opérationnelle se fait d
 ### BMAD-011 — Créer une checklist v0.1 publiable
 
 - **Epic** : EPIC-06
-- **Statut** : READY
+- **Statut** : DONE
 - **Contexte** : la version v0.1 doit avoir un périmètre vérifiable.
 - **Fichiers concernés** : `ROADMAP.md`, `QUALITY_CHECKLIST.md`, `bmad/04_definition_of_done.md`
 - **Critères d'acceptation** : critères de publication v0.1 explicites.
@@ -112,7 +112,7 @@ Ce fichier sert de réservoir de tâches. L'exécution opérationnelle se fait d
 ### BMAD-012 — Auditer le glossaire comme langage du domaine
 
 - **Epic** : EPIC-01
-- **Statut** : BLOCKED
+- **Statut** : READY
 - **Contexte** : le glossaire doit refléter le modèle de domaine, pas seulement définir des mots.
 - **Fichiers concernés** : `GLOSSARY.md`, `DOMAIN_MODEL.md`
 - **Critères d'acceptation** : termes manquants identifiés ; aucune définition longue ajoutée sans validation.

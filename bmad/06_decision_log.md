@@ -85,6 +85,14 @@ Chaque entrée doit contenir :
 - **Fichiers concernés** : `labs/README.md`, `templates/experiment_template.md`, `DEPENDENCIES.md`.
 - **Alternatives rejetées** : documenter des installations pas à pas ; utiliser les labs pour introduire des concepts centraux avant les chapitres.
 
+### 2026-07-05 — Critères de publication v0.1
+
+- **Décision** : définir `v0.1 - Fondations` par des critères vérifiables.
+- **Contexte** : la version v0.1 devait avoir un périmètre publiable sans dépendre d'une interprétation implicite.
+- **Impact** : `ROADMAP.md`, `QUALITY_CHECKLIST.md` et `bmad/04_definition_of_done.md` portent désormais les critères de sortie v0.1.
+- **Fichiers concernés** : `ROADMAP.md`, `QUALITY_CHECKLIST.md`, `bmad/04_definition_of_done.md`.
+- **Alternatives rejetées** : déclarer v0.1 prête sur simple impression ; attendre la rédaction complète des sections aval.
+
 ## Questions à traiter
 
 - Cette décision change-t-elle la structure du projet ?

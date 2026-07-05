@@ -20,6 +20,17 @@ Une tâche est `DONE` si :
 - une décision structurante est consignée dans `bmad/06_decision_log.md` si nécessaire ;
 - le résumé final liste les fichiers modifiés et les prochaines tâches candidates.
 
+## Definition of Done v0.1
+
+La version `v0.1 - Fondations` est publiable si :
+
+- le périmètre v0.1 est défini dans `ROADMAP.md` ;
+- la checklist v0.1 de `QUALITY_CHECKLIST.md` est satisfiable sans interprétation implicite ;
+- `DOMAIN_MODEL.md` et `DEPENDENCIES.md` couvrent les concepts utilisés par `docs/` et `foundations/` ;
+- aucun chapitre de fondation ne porte une responsabilité réservée aux sections aval ;
+- les liens Markdown sont vérifiés ;
+- la prochaine étape après v0.1 est explicite.
+
 ## Non terminé
 
 Une tâche n'est pas terminée si :
