@@ -4,6 +4,10 @@
 
 Énoncer les principes qui guident les décisions éditoriales et techniques du projet.
 
+## Rôle du document
+
+Ce fichier définit les principes d'arbitrage. Il aide à choisir entre deux plans, à refuser un ajout trop opportuniste, ou à décider qu'un sujet doit devenir un chapitre séparé.
+
 ## Principes
 
 - Partir des problèmes d'architecture avant les solutions.
@@ -28,3 +32,4 @@ Le projet accepte un mode de travail proche de son sujet : des composants spéci
 - Quel principe aide à trancher quand deux plans sont possibles ?
 - Quel usage d'un outil renforce vraiment l'argument ?
 - Quelle responsabilité reste humaine dans la co-écriture ?
+- Quel compromis doit rester visible dans chaque décision éditoriale ?

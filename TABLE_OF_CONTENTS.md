@@ -36,9 +36,13 @@ Donner une vue stable de la progression pédagogique du manuel.
 
 ## Supports
 
+- `GOVERNANCE.md`
 - `VISION.md`
 - `PHILOSOPHY.md`
+- `DOMAIN_MODEL.md`
+- `DEPENDENCIES.md`
 - `STYLE_GUIDE.md`
+- `QUALITY_CHECKLIST.md`
 - `GLOSSARY.md`
 - `ROADMAP.md`
 - `CONTRIBUTING.md`

@@ -17,9 +17,10 @@ Décrire en quelques phrases le rôle du chapitre dans la progression du livre.
 - Principes.
 - Compromis.
 - Exemple minimal.
-- Ce qu'il faut retenir.
-- Ce qu'il ne faut pas conclure.
-- Vers où aller ensuite.
+- À retenir.
+- Limites.
+- Questions ouvertes.
+- Pour aller plus loin.
 
 ## Termes à relier
 

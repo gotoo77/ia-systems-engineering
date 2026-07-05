@@ -8,7 +8,7 @@ Organiser les contributions comme dans un projet logiciel maintenable.
 
 1. Choisir un item de `ROADMAP.md`.
 2. Créer ou compléter un chapitre avec le template adapté.
-3. Vérifier l'alignement avec `VISION.md`, `PHILOSOPHY.md` et `STYLE_GUIDE.md`.
+3. Vérifier la source de vérité dans `GOVERNANCE.md`.
 4. Ajouter les termes nouveaux dans `GLOSSARY.md`.
 5. Vérifier la cohérence des titres, intentions et questions.
 6. Proposer une contribution courte et relisible.

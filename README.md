@@ -12,7 +12,7 @@ Ce dépôt documente des principes d'architecture durables pour concevoir, obser
 
 Le livre avance comme un projet logiciel : petits lots, chapitres autonomes, vocabulaire partagé, contributions relues, expériences reproductibles.
 
-La charte du projet est définie dans `VISION.md`, `PHILOSOPHY.md` et `STYLE_GUIDE.md`.
+La gouvernance du projet est définie dans `GOVERNANCE.md`.
 
 ## Progression
 
@@ -41,6 +41,8 @@ La charte du projet est définie dans `VISION.md`, `PHILOSOPHY.md` et `STYLE_GUI
 - `templates/` : formats de rédaction.
 
 Voir `TABLE_OF_CONTENTS.md` pour l'ordre détaillé des chapitres.
+Voir `DEPENDENCIES.md` pour les dépendances pédagogiques.
+Voir `bmad/00_operating_model.md` pour le pilotage opérationnel du projet.
 
 ## Statut
 

@@ -16,7 +16,7 @@ Décrire brièvement le changement proposé.
 ## Checklist qualité
 
 - [ ] Le changement respecte `AGENTS.md`.
-- [ ] Le changement respecte `VISION.md`, `PHILOSOPHY.md` et `STYLE_GUIDE.md`.
+- [ ] La source de vérité concernée est identifiée dans `GOVERNANCE.md`.
 - [ ] Chaque chapitre modifié garde une intention unique.
 - [ ] Les questions à traiter restent des questions de conception.
 - [ ] Le déclic de compréhension visé est identifiable.

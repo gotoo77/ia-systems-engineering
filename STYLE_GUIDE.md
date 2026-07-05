@@ -4,6 +4,10 @@
 
 Stabiliser les règles d'écriture pour garder un ton cohérent dans tout le manuel.
 
+## Rôle du document
+
+Ce fichier est la source de vérité pour les règles d'écriture : ton, structure, vocabulaire et fins de chapitre.
+
 ## Règles d'écriture
 
 - Écrire en français clair, technique, sans emphase marketing.
@@ -35,19 +39,10 @@ Chaque chapitre doit contenir ou préparer :
 
 Chaque chapitre complet doit se terminer par :
 
-- `Ce qu'il faut retenir`
-- `Ce qu'il ne faut pas conclure`
-- `Vers où aller ensuite`
-
-## Checklist qualité
-
-- [ ] Le chapitre produit un déclic de compréhension.
-- [ ] Le problème est posé avant la solution.
-- [ ] Le pourquoi est expliqué avant le comment.
-- [ ] Les outils ne remplacent pas les principes.
-- [ ] Les compromis d'architecture sont explicites.
-- [ ] Les limites et mauvaises interprétations sont mentionnées.
-- [ ] Le chapitre reste lisible seul.
+- `À retenir`
+- `Limites`
+- `Questions ouvertes`
+- `Pour aller plus loin`
 
 ## Questions à traiter
 
