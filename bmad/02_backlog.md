@@ -67,7 +67,7 @@ Ce fichier sert de réservoir de tâches. L'exécution opérationnelle se fait d
 ### BMAD-007 — Identifier les chapitres à renommer
 
 - **Epic** : EPIC-03
-- **Statut** : READY
+- **Statut** : DONE
 - **Contexte** : certains fichiers sont nommés par outils plutôt que par responsabilité.
 - **Fichiers concernés** : `agents/`, `engines/`, `memory/`, `TABLE_OF_CONTENTS.md`
 - **Critères d'acceptation** : une proposition de renommage est listée sans appliquer les renommages.
@@ -76,7 +76,7 @@ Ce fichier sert de réservoir de tâches. L'exécution opérationnelle se fait d
 ### BMAD-008 — Recadrer les frontières de `foundations/03`
 
 - **Epic** : EPIC-03
-- **Statut** : BLOCKED
+- **Statut** : READY
 - **Contexte** : interfaces, orchestration et observabilité sont regroupées trop tôt.
 - **Fichiers concernés** : `foundations/03_interfaces_orchestration_observabilite.md`, `DEPENDENCIES.md`
 - **Critères d'acceptation** : un plan de recadrage est proposé sans rédaction complète.

@@ -51,6 +51,18 @@ Donner une vue stable de la progression pédagogique du manuel.
 - `templates/concept_card_template.md`
 - `templates/experiment_template.md`
 
+## Renommages candidats
+
+Ces propositions visent à remplacer les titres centrés sur des outils par des titres centrés sur les responsabilités. Elles ne doivent pas être appliquées sans tâche dédiée.
+
+| Fichier actuel | Problème | Slug candidat |
+| --- | --- | --- |
+| `engines/02_llama_cpp_ollama_mlx_vllm.md` | Le titre liste des moteurs au lieu de nommer le critère architectural. | `engines/02_choisir_un_moteur_d_inference` |
+| `agents/02_continue_cline_aider_openhands_codex.md` | Le titre liste des produits au lieu de nommer le type de système étudié. | `agents/02_assistants_de_developpement_agentiques` |
+| `agents/03_tool_use_mcp_sandboxing.md` | Le titre mélange capacité, protocole et contrôle d'exécution. | `agents/03_outils_protocoles_et_sandboxing` |
+| `memory/01_rag.md` | Le titre nomme directement le pattern sans expliciter le problème de récupération. | `memory/01_recuperation_documentaire_et_rag` |
+| `memory/03_indexation_code_tree_sitter.md` | Le titre met `tree-sitter` au centre au lieu de l'indexation structurelle. | `memory/03_indexation_structurelle_du_code` |
+
 ## Questions à traiter
 
 - L'ordre de lecture reste-t-il cohérent avec les dépendances conceptuelles ?
