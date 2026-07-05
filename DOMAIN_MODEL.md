@@ -31,11 +31,11 @@ Chaque concept important doit être décrit avec :
 - **Inférence** : exécution d'un modèle pour produire une sortie.
 - **Moteur d'inférence** : couche d'exécution entre modèle, matériel et application.
 - **Token** : unité manipulée par le modèle.
-- **Contexte** : information visible par le modèle pendant une inférence.
-- **Mémoire** : information conservée ou récupérée hors de l'inférence immédiate.
+- **Contexte** : information effectivement visible par le modèle pendant une inférence.
+- **Mémoire** : information conservée, récupérée ou reconstruite hors de l'inférence immédiate.
 - **Embedding** : représentation vectorielle utilisée pour comparer des contenus.
 - **Indexation** : organisation de contenus pour les retrouver ou les relier.
-- **RAG** : pattern combinant récupération d'information et génération.
+- **RAG** : pattern combinant récupération d'information externe et génération par modèle.
 - **Outil** : capacité externe appelée par un système d'IA.
 - **Agent** : boucle de décision qui poursuit un objectif avec état et outils.
 - **Orchestrateur** : composant qui coordonne modèles, outils, mémoire et règles.
@@ -49,13 +49,34 @@ Chaque concept important doit être décrit avec :
 - Système vs composant.
 - Complexité vs complication.
 - Émergence vs effet magique.
-- Contexte vs mémoire.
 - Embedding vs indexation.
-- RAG vs mémoire.
 - Modèle vs moteur d'inférence.
 - Agent vs orchestrateur.
 - Outil vs protocole.
 - Benchmark vs évaluation.
+
+## Frontières stabilisées
+
+### Contexte vs mémoire
+
+- **Contexte** : contenu actuellement injecté dans l'inférence.
+- **Mémoire** : contenu disponible hors inférence, qui peut être sélectionné, résumé, récupéré ou ignoré.
+- **Frontière** : une mémoire ne devient contexte que lorsqu'elle est rendue visible au modèle.
+- **Confusion à éviter** : appeler "mémoire" toute fenêtre de contexte longue.
+
+### Mémoire vs RAG
+
+- **Mémoire** : capacité générale à conserver ou retrouver de l'information.
+- **RAG** : pattern précis où une récupération externe alimente une génération.
+- **Frontière** : le RAG est une manière d'utiliser une mémoire documentaire ; toute mémoire n'est pas du RAG.
+- **Confusion à éviter** : croire que le RAG remplace une stratégie de mémoire.
+
+### Contexte vs RAG
+
+- **Contexte** : entrée visible par le modèle au moment de produire.
+- **RAG** : mécanisme qui choisit une partie de l'information à mettre dans le contexte.
+- **Frontière** : le RAG prépare le contexte ; il n'est pas le contexte lui-même.
+- **Confusion à éviter** : mesurer seulement la taille du contexte au lieu de mesurer la qualité de récupération.
 
 ## Questions à traiter
 

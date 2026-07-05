@@ -40,7 +40,7 @@ Ce fichier est le point d'entrée de la commande opérationnelle `next`. Une ses
 ### BMAD-004 — Définir les frontières contexte, mémoire, RAG
 
 - **Epic** : EPIC-01
-- **Statut** : READY
+- **Statut** : DONE
 - **Contexte** : ces concepts risquent de se chevaucher dans plusieurs chapitres.
 - **Fichiers concernés** : `DOMAIN_MODEL.md`, `GLOSSARY.md`
 - **Critères d'acceptation** : les frontières sont explicites ; les confusions fréquentes sont listées.
@@ -49,7 +49,7 @@ Ce fichier est le point d'entrée de la commande opérationnelle `next`. Une ses
 ### BMAD-005 — Définir les frontières modèle, inférence, moteur
 
 - **Epic** : EPIC-01
-- **Statut** : BLOCKED
+- **Statut** : READY
 - **Contexte** : le chapitre sur les moteurs dépend de ces frontières.
 - **Fichiers concernés** : `DOMAIN_MODEL.md`, `GLOSSARY.md`, `engines/01_pourquoi_un_moteur_inference.md`
 - **Critères d'acceptation** : les responsabilités de chaque concept sont séparées ; aucun contenu de chapitre n'est rédigé.
