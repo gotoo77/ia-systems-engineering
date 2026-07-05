@@ -45,6 +45,14 @@ Chaque entrée doit contenir :
 - **Fichiers concernés** : `COMMANDS.md`, `AGENTS.md`, `GOVERNANCE.md`, `README.md`, `bmad/00_operating_model.md`.
 - **Alternatives rejetées** : multiplier les protocoles dispersés dans `AGENTS.md` ; ajouter une couche de processus plus lourde avant production de contenu.
 
+### 2026-07-05 — Commande one-shot bootstrap
+
+- **Décision** : définir `bootstrap` comme commande de préparation du passage `M0 - Architecture validée` vers `M1 - Production`.
+- **Contexte** : le projet a besoin d'un déclencheur explicite pour vérifier la gouvernance, les ADR, BMAD et le graphe pédagogique avant de produire.
+- **Impact** : `bootstrap` lance une revue de phase et produit un verdict `GO` ou `NO GO` sans rédiger de chapitre.
+- **Fichiers concernés** : `COMMANDS.md`, `architecture/adr/ADR-0002-bootstrap-command.md`, `architecture/adr/ADR-0001-production-gate.md`.
+- **Alternatives rejetées** : lancer directement `next` en production ; conserver une validation de phase implicite.
+
 ## Questions à traiter
 
 - Cette décision change-t-elle la structure du projet ?

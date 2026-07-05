@@ -34,6 +34,8 @@ Une fois ces conditions réunies :
 - la production quotidienne est pilotée par BMAD ;
 - la commande opérationnelle `next` devient le mode de progression par défaut.
 
+Le passage effectif peut être préparé par la commande one-shot `bootstrap`, définie dans `COMMANDS.md` et cadrée par `ADR-0002 - Commande bootstrap`.
+
 ## Rôle responsable
 
 Le rôle de `Knowledge Program Manager` est introduit pour décider du passage de phase.
