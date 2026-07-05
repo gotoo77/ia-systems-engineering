@@ -12,6 +12,7 @@ Définir les boucles de mesure nécessaires pour améliorer un système d'IA.
 
 ## Checklist qualité
 
+- [ ] Déclic de compréhension identifié.
 - [ ] Intention unique.
 - [ ] Questions de conception explicites.
 - [ ] Concepts reliés au glossaire si nécessaire.

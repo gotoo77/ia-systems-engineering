@@ -12,6 +12,7 @@ Montrer pourquoi l'indexation structurelle de code demande plus qu'une recherche
 
 ## Checklist qualité
 
+- [ ] Déclic de compréhension identifié.
 - [ ] Intention unique.
 - [ ] Questions de conception explicites.
 - [ ] Concepts reliés au glossaire si nécessaire.

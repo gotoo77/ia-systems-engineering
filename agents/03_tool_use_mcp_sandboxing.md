@@ -12,6 +12,7 @@ Décrire les interfaces d'action contrôlée entre modèle et environnement.
 
 ## Checklist qualité
 
+- [ ] Déclic de compréhension identifié.
 - [ ] Intention unique.
 - [ ] Questions de conception explicites.
 - [ ] Concepts reliés au glossaire si nécessaire.

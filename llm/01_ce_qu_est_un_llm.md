@@ -12,6 +12,7 @@ Décrire un LLM par ses capacités, ses limites et sa place dans un système.
 
 ## Checklist qualité
 
+- [ ] Déclic de compréhension identifié.
 - [ ] Intention unique.
 - [ ] Questions de conception explicites.
 - [ ] Concepts reliés au glossaire si nécessaire.

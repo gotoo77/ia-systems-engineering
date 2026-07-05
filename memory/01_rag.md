@@ -12,6 +12,7 @@ Présenter la récupération augmentée comme pattern d'architecture documentair
 
 ## Checklist qualité
 
+- [ ] Déclic de compréhension identifié.
 - [ ] Intention unique.
 - [ ] Questions de conception explicites.
 - [ ] Concepts reliés au glossaire si nécessaire.

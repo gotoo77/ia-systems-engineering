@@ -12,6 +12,7 @@ Introduire les représentations vectorielles et les compromis d'exécution local
 
 ## Checklist qualité
 
+- [ ] Déclic de compréhension identifié.
 - [ ] Intention unique.
 - [ ] Questions de conception explicites.
 - [ ] Concepts reliés au glossaire si nécessaire.

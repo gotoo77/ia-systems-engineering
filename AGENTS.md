@@ -6,23 +6,15 @@ Définir les règles éditoriales pour tout contributeur humain ou agent logicie
 
 ## Règles éditoriales
 
-- Écrire en français clair, technique, sans emphase marketing.
+- Respecter `VISION.md`, `PHILOSOPHY.md` et `STYLE_GUIDE.md`.
 - Préférer les principes, invariants et compromis aux listes d'outils.
 - Garder chaque chapitre autonome : contexte, intention, questions, plan, références.
 - Ne pas ajouter de contenu long sans mise à jour de la roadmap.
 - Relier les concepts au glossaire quand un terme devient central.
 - Séparer les faits établis, les hypothèses et les opinions d'architecture.
 - Préférer des exemples petits, reproductibles et maintenables.
-- Éviter les dépendances temporelles non nécessaires.
 - Ne pas transformer un chapitre en tutoriel outil si le sujet est architectural.
-- Commencer chaque chapitre par le problème d'architecture, pas par une technologie.
-- Définir les responsabilités des composants avant de nommer des produits.
-- Expliciter au moins un compromis : coût, latence, qualité, contrôle, sécurité ou maintenabilité.
-- Employer le même terme pour le même concept ; si le terme varie, ajouter une note au glossaire.
-- Signaler les affirmations temporelles avec prudence et éviter les formulations de type "aujourd'hui le meilleur outil".
-- Limiter les listes d'outils à leur rôle dans une comparaison d'architecture.
-- Préférer les phrases courtes et les titres descriptifs.
-- Ne pas mélanger tutoriel, opinion et référence conceptuelle dans la même section.
+- Vérifier qu'un chapitre vise un déclic de compréhension, pas seulement une information.
 
 ## Progression éditoriale
 
@@ -43,7 +35,7 @@ Utiliser `templates/chapter_template.md` pour les chapitres, `templates/concept_
 - Les limites, risques ou modes d'échec sont mentionnés.
 - Le chapitre reste lisible sans dépendre d'un autre fichier.
 - Les références à des outils servent l'argument, pas l'inverse.
-- La conclusion prévue peut tenir en quelques points à retenir.
+- La conclusion prévue contient `Ce qu'il faut retenir`, `Ce qu'il ne faut pas conclure` et `Vers où aller ensuite`.
 
 ## Questions à traiter
 

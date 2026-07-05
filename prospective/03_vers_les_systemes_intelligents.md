@@ -12,6 +12,7 @@ Synthétiser les conditions nécessaires pour passer de modèles performants à 
 
 ## Checklist qualité
 
+- [ ] Déclic de compréhension identifié.
 - [ ] Intention unique.
 - [ ] Questions de conception explicites.
 - [ ] Concepts reliés au glossaire si nécessaire.

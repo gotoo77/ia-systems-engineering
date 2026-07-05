@@ -12,6 +12,7 @@ Expliquer le rôle du moteur entre modèle, matériel et application.
 
 ## Checklist qualité
 
+- [ ] Déclic de compréhension identifié.
 - [ ] Intention unique.
 - [ ] Questions de conception explicites.
 - [ ] Concepts reliés au glossaire si nécessaire.

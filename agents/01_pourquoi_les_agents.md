@@ -12,6 +12,7 @@ Clarifier ce qu'un agent ajoute par rapport à un simple appel de modèle.
 
 ## Checklist qualité
 
+- [ ] Déclic de compréhension identifié.
 - [ ] Intention unique.
 - [ ] Questions de conception explicites.
 - [ ] Concepts reliés au glossaire si nécessaire.

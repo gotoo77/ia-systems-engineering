@@ -12,6 +12,7 @@ Présenter le périmètre du manuel et son angle d'ingénierie.
 
 ## Checklist qualité
 
+- [ ] Déclic de compréhension identifié.
 - [ ] Intention unique.
 - [ ] Questions de conception explicites.
 - [ ] Concepts reliés au glossaire si nécessaire.

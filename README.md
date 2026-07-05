@@ -12,6 +12,8 @@ Ce dépôt documente des principes d'architecture durables pour concevoir, obser
 
 Le livre avance comme un projet logiciel : petits lots, chapitres autonomes, vocabulaire partagé, contributions relues, expériences reproductibles.
 
+La charte du projet est définie dans `VISION.md`, `PHILOSOPHY.md` et `STYLE_GUIDE.md`.
+
 ## Progression
 
 1. Fondations : information, complexité, découpage, interfaces.

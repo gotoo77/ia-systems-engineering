@@ -4,50 +4,61 @@
 
 Planifier l'écriture par lots incrémentaux, sans figer trop tôt le contenu final.
 
-## Lot 0 - Squelette
+## Milestone 0 - Charte
 
-- Créer l'arborescence.
-- Ajouter les templates.
-- Initialiser le glossaire.
-- Définir les règles éditoriales.
+- Stabiliser `VISION.md`.
+- Stabiliser `PHILOSOPHY.md`.
+- Stabiliser `STYLE_GUIDE.md`.
+- Aligner `AGENTS.md`, `CONTRIBUTING.md` et les templates.
 
-## Lot 1 - Fondations
+## v0.1 - Fondations
 
 - Stabiliser les chapitres `docs/` et `foundations/`.
 - Définir le vocabulaire de base.
 - Poser les critères de qualité système.
 
-## Lot 2 - LLM et moteurs
+## v0.2 - LLM
 
 - Expliquer tokens, contexte, embeddings et hallucinations.
+- Clarifier ce que le modèle sait faire et ce que le système doit prendre en charge.
+- Relier capacités, limites et modes d'échec.
+
+## v0.3 - Moteurs d'inférence
+
 - Comparer les rôles des moteurs d'inférence.
 - Documenter les compromis local, serveur, batch et interactif.
 
-## Lot 3 - Agents et outils
+## v0.4 - Agents
 
 - Clarifier le modèle agentique.
 - Décrire tool use, MCP et sandboxing.
 - Comparer les familles d'assistants de développement.
 
-## Lot 4 - Mémoire et RAG
+## v0.5 - Mémoire, RAG et indexation
 
 - Définir les patterns de récupération.
 - Distinguer mémoire courte, longue et externe.
 - Introduire l'indexation de code.
 
-## Lot 5 - Orchestration et assistant local
+## v0.6 - Architectures complètes
 
 - Formaliser les patterns d'orchestration.
 - Ajouter les critères d'observabilité et d'évaluation.
 - Décrire l'architecture d'un assistant de développement local comme étude de cas.
 
-## Lot 6 - Labs
+## v0.7 - Labs
 
 - Construire les labs minimaux.
 - Valider les patterns sur Git, tests et RAG de code.
 - Documenter les résultats sans transformer les labs en tutoriels longs.
 
-## Lot 7 - Prospective
+## v1.0 - Assistant de développement local
+
+- Construire le parcours complet d'un assistant de développement local.
+- Relier fondations, LLM, moteurs, agents, mémoire et orchestration.
+- Montrer les décisions d'architecture de bout en bout.
+
+## Prospective
 
 - Séparer tendances robustes et spéculations.
 - Documenter le self-scaffolding.

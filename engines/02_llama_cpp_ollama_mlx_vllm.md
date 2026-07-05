@@ -12,6 +12,7 @@ Comparer des familles de moteurs comme choix d'architecture, sans tutoriel outil
 
 ## Checklist qualité
 
+- [ ] Déclic de compréhension identifié.
 - [ ] Intention unique.
 - [ ] Questions de conception explicites.
 - [ ] Concepts reliés au glossaire si nécessaire.

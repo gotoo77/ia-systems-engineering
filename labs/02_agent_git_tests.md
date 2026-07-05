@@ -12,6 +12,7 @@ Explorer un agent capable de modifier du code et de vérifier ses changements.
 
 ## Checklist qualité
 
+- [ ] Déclic de compréhension identifié.
 - [ ] Intention unique.
 - [ ] Questions de conception explicites.
 - [ ] Concepts reliés au glossaire si nécessaire.

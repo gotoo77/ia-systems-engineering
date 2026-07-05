@@ -12,6 +12,7 @@ Relier les limites pratiques des LLM à leur mode d'entrée et de génération.
 
 ## Checklist qualité
 
+- [ ] Déclic de compréhension identifié.
 - [ ] Intention unique.
 - [ ] Questions de conception explicites.
 - [ ] Concepts reliés au glossaire si nécessaire.

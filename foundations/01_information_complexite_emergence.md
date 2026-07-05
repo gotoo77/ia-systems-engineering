@@ -12,6 +12,7 @@ Poser les notions nécessaires pour comprendre les comportements de systèmes d'
 
 ## Checklist qualité
 
+- [ ] Déclic de compréhension identifié.
 - [ ] Intention unique.
 - [ ] Questions de conception explicites.
 - [ ] Concepts reliés au glossaire si nécessaire.

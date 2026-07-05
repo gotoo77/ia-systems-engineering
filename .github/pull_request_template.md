@@ -16,8 +16,10 @@ Décrire brièvement le changement proposé.
 ## Checklist qualité
 
 - [ ] Le changement respecte `AGENTS.md`.
+- [ ] Le changement respecte `VISION.md`, `PHILOSOPHY.md` et `STYLE_GUIDE.md`.
 - [ ] Chaque chapitre modifié garde une intention unique.
 - [ ] Les questions à traiter restent des questions de conception.
+- [ ] Le déclic de compréhension visé est identifiable.
 - [ ] Les compromis ou limites sont explicites.
 - [ ] Les références à des outils servent un propos d'architecture.
 - [ ] La table des matières est mise à jour si nécessaire.

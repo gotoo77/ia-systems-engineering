@@ -12,6 +12,7 @@ Montrer comment découper un problème d'IA en responsabilités testables.
 
 ## Checklist qualité
 
+- [ ] Déclic de compréhension identifié.
 - [ ] Intention unique.
 - [ ] Questions de conception explicites.
 - [ ] Concepts reliés au glossaire si nécessaire.

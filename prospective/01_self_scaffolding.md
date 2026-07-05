@@ -12,6 +12,7 @@ Explorer l'idée de systèmes capables de générer et adapter leur propre struc
 
 ## Checklist qualité
 
+- [ ] Déclic de compréhension identifié.
 - [ ] Intention unique.
 - [ ] Questions de conception explicites.
 - [ ] Concepts reliés au glossaire si nécessaire.

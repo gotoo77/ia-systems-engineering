@@ -12,6 +12,7 @@ Expliquer le besoin d'un manuel centré sur les systèmes plutôt que sur les an
 
 ## Checklist qualité
 
+- [ ] Déclic de compréhension identifié.
 - [ ] Intention unique.
 - [ ] Questions de conception explicites.
 - [ ] Concepts reliés au glossaire si nécessaire.

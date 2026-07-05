@@ -36,6 +36,9 @@ Donner une vue stable de la progression pédagogique du manuel.
 
 ## Supports
 
+- `VISION.md`
+- `PHILOSOPHY.md`
+- `STYLE_GUIDE.md`
 - `GLOSSARY.md`
 - `ROADMAP.md`
 - `CONTRIBUTING.md`

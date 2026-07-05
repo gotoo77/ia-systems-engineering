@@ -12,11 +12,14 @@ Décrire en quelques phrases le rôle du chapitre dans la progression du livre.
 
 ## Plan prévu
 
+- Problème d'architecture.
 - Contexte.
 - Principes.
 - Compromis.
 - Exemple minimal.
-- Points à retenir.
+- Ce qu'il faut retenir.
+- Ce qu'il ne faut pas conclure.
+- Vers où aller ensuite.
 
 ## Termes à relier
 
@@ -24,6 +27,7 @@ Décrire en quelques phrases le rôle du chapitre dans la progression du livre.
 
 ## Checklist qualité
 
+- [ ] Déclic de compréhension identifié.
 - [ ] Intention unique.
 - [ ] Questions de conception explicites.
 - [ ] Concepts reliés au glossaire.

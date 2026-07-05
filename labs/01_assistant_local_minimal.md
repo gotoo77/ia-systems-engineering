@@ -12,6 +12,7 @@ Construire une expérience réduite pour valider le squelette d'un assistant loc
 
 ## Checklist qualité
 
+- [ ] Déclic de compréhension identifié.
 - [ ] Intention unique.
 - [ ] Questions de conception explicites.
 - [ ] Concepts reliés au glossaire si nécessaire.

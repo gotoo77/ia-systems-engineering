@@ -12,6 +12,7 @@ Assembler les composants nécessaires à un assistant local utile et contrôlabl
 
 ## Checklist qualité
 
+- [ ] Déclic de compréhension identifié.
 - [ ] Intention unique.
 - [ ] Questions de conception explicites.
 - [ ] Concepts reliés au glossaire si nécessaire.
