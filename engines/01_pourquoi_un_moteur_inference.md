@@ -10,6 +10,13 @@ Expliquer le rôle du moteur entre modèle, matériel et application.
 - Comment le moteur influence-t-il coût, latence et débit ?
 - Quels paramètres doivent être exposés à l'architecture ?
 
+## Termes à relier
+
+- Modèle.
+- Inférence.
+- Moteur d'inférence.
+- Runtime d'exécution.
+
 ## Checklist qualité
 
 - [ ] Déclic de compréhension identifié.

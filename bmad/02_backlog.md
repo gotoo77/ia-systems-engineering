@@ -49,7 +49,7 @@ Ce fichier sert de réservoir de tâches. L'exécution opérationnelle se fait d
 ### BMAD-005 — Définir les frontières modèle, inférence, moteur
 
 - **Epic** : EPIC-01
-- **Statut** : READY
+- **Statut** : DONE
 - **Contexte** : le chapitre sur les moteurs dépend de ces frontières.
 - **Fichiers concernés** : `DOMAIN_MODEL.md`, `GLOSSARY.md`, `engines/01_pourquoi_un_moteur_inference.md`
 - **Critères d'acceptation** : les responsabilités de chaque concept sont séparées ; aucun contenu de chapitre n'est rédigé.
@@ -58,7 +58,7 @@ Ce fichier sert de réservoir de tâches. L'exécution opérationnelle se fait d
 ### BMAD-006 — Transformer le graphe pédagogique en table de dépendances
 
 - **Epic** : EPIC-02
-- **Statut** : TODO
+- **Statut** : READY
 - **Contexte** : `DEPENDENCIES.md` contient un graphe initial mais pas encore de table exploitable.
 - **Fichiers concernés** : `DEPENDENCIES.md`
 - **Critères d'acceptation** : chaque section principale a prérequis, concepts introduits et concepts réutilisés.

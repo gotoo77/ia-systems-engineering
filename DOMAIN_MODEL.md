@@ -27,9 +27,9 @@ Chaque concept important doit être décrit avec :
 - **Complexité** : difficulté à prédire le comportement global à partir des seules parties isolées.
 - **Interaction** : relation par laquelle un composant influence un autre composant ou un état partagé.
 - **Émergence** : comportement global produit par des interactions locales, non évident à partir d'un composant seul.
-- **Modèle** : composant qui transforme une entrée en sortie selon des paramètres appris.
-- **Inférence** : exécution d'un modèle pour produire une sortie.
-- **Moteur d'inférence** : couche d'exécution entre modèle, matériel et application.
+- **Modèle** : artefact paramétré qui encode des capacités apprises et transforme une entrée en sortie.
+- **Inférence** : opération qui exécute un modèle pour produire une sortie à partir d'une entrée.
+- **Moteur d'inférence** : couche d'exécution qui charge, paramètre et fait tourner un modèle sur un environnement matériel ou serveur.
 - **Token** : unité manipulée par le modèle.
 - **Contexte** : information effectivement visible par le modèle pendant une inférence.
 - **Mémoire** : information conservée, récupérée ou reconstruite hors de l'inférence immédiate.
@@ -50,7 +50,6 @@ Chaque concept important doit être décrit avec :
 - Complexité vs complication.
 - Émergence vs effet magique.
 - Embedding vs indexation.
-- Modèle vs moteur d'inférence.
 - Agent vs orchestrateur.
 - Outil vs protocole.
 - Benchmark vs évaluation.
@@ -77,6 +76,27 @@ Chaque concept important doit être décrit avec :
 - **RAG** : mécanisme qui choisit une partie de l'information à mettre dans le contexte.
 - **Frontière** : le RAG prépare le contexte ; il n'est pas le contexte lui-même.
 - **Confusion à éviter** : mesurer seulement la taille du contexte au lieu de mesurer la qualité de récupération.
+
+### Modèle vs inférence
+
+- **Modèle** : artefact appris, disponible avant l'exécution.
+- **Inférence** : opération d'exécution qui utilise le modèle.
+- **Frontière** : un modèle peut exister sans être exécuté ; une inférence est un événement ou un processus d'exécution.
+- **Confusion à éviter** : attribuer au modèle seul des comportements causés par la stratégie d'inférence.
+
+### Inférence vs moteur d'inférence
+
+- **Inférence** : opération logique de production d'une sortie.
+- **Moteur d'inférence** : logiciel qui rend cette opération possible dans un environnement concret.
+- **Frontière** : l'inférence décrit ce qui se passe ; le moteur décrit ce qui l'exécute.
+- **Confusion à éviter** : traiter le moteur comme un simple détail technique sans impact sur latence, coût, débit et contrôle.
+
+### Modèle vs moteur d'inférence
+
+- **Modèle** : poids, architecture et capacités apprises.
+- **Moteur d'inférence** : runtime qui charge le modèle, gère les paramètres d'exécution et dialogue avec le matériel ou le serveur.
+- **Frontière** : changer de moteur peut modifier performance, contraintes et intégration sans changer le modèle.
+- **Confusion à éviter** : croire qu'un "bon modèle" garantit seul un système utilisable.
 
 ## Questions à traiter
 

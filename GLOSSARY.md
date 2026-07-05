@@ -7,6 +7,7 @@ Stabiliser le vocabulaire commun du manuel.
 ## Termes initiaux
 
 - **LLM** : modèle de langage de grande taille entraîné à prédire et générer du texte.
+- **Modèle** : artefact paramétré qui encode des capacités apprises.
 - **Token** : unité de texte manipulée par un modèle, souvent plus petite qu'un mot.
 - **Contexte** : information effectivement visible par le modèle lors d'une inférence.
 - **Embedding** : représentation vectorielle d'un contenu pour comparer ou rechercher du sens.
@@ -20,6 +21,8 @@ Stabiliser le vocabulaire commun du manuel.
 - **tree-sitter** : parseur incrémental utilisé pour analyser la structure de code.
 - **Quantification** : réduction de précision numérique d'un modèle pour optimiser coût et mémoire.
 - **Inférence** : exécution d'un modèle pour produire une sortie à partir d'une entrée.
+- **Moteur d'inférence** : logiciel qui charge et exécute un modèle dans un environnement donné.
+- **Runtime d'exécution** : couche logicielle qui fournit les conditions concrètes d'exécution.
 - **Hallucination** : production plausible mais fausse, non fondée ou non vérifiée.
 - **Benchmark** : évaluation comparative selon une tâche, un protocole et des métriques.
 
